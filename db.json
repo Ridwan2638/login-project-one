@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": "87ec",
+      "fName": "Sanni Ridwan Olamide",
+      "mobile": "8008",
+      "email": "sanniridwanolamide@gmail.com",
+      "password": "Ridwan100%",
+      "cPassword": "Ridwan100%"
+    },
+    {
+      "id": "7733",
+      "fName": "Sanni Ridwan",
+      "mobile": "97957",
+      "email": "olagi@gmail.com",
+      "password": "Top100%",
+      "cPassword": "Top100%"
+    },
+    {
+      "id": "7640",
+      "fName": "Sanni Ridwan",
+      "mobile": "97957",
+      "email": "olagi@gmail.com",
+      "password": "Top100%",
+      "cPassword": "Top100%"
+    },
+    {
+      "id": "95d2",
+      "fName": "Sanni Ridwan Olamide",
+      "mobile": "9879",
+      "email": "ji@gmail.com",
+      "password": "Top100%",
+      "cPassword": "Top100%"
+    }
+  ]
+}

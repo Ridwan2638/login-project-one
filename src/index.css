@@ -4,6 +4,8 @@ body{
     /* box-sizing: border-box; */
     margin: 0;
     font-family: Roboto;
+    justify-content: center;
+    padding: 0;
 }
 .container{
     display: flex;
@@ -18,7 +20,8 @@ body{
     
 }
 .content{
-    padding-left: 86px;
+    width: 80%;
+    margin: auto;
 }
 .logo{
     font-weight: bold;
@@ -37,7 +40,7 @@ body{
 }
 input{
     display: block;
-    width: 500px;
+    width: 100%;
     height: 40px;
     border-color: #C1BBBB;
 }
@@ -91,10 +94,12 @@ button.colorfull{
     background-color: #3751FE;
     color: white;
     box-shadow: 0px 5px 2px rgba(0,0,0,0.1);
+    cursor: pointer;
 }
 button.second{
     background-color: white;
     margin-left: 50px;
+    cursor: pointer;
 }
 .others{
     display: flex;
@@ -114,11 +119,18 @@ button.second{
     vertical-align: middle;
     font-weight: bold;
 }
+.social{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
 .second-section{
     background-color: #E5E5E5;
-    height: 100vh;
+    height: 100%;
     position: relative;
     width: 50vw;
+    margin: 0px;
+    padding: 0px;
 }
 nav{
     display: flex;
@@ -140,9 +152,19 @@ img{
     text-decoration-color: blue;
     margin-bottom: 50px;
 }
-
+.color{
+    margin-top: 20px;
+}
+hr{
+    max-width: 80%;
+    justify-content: left;
+}
 /* for tablet */
 @media (max-width: 1040px){
+
+.container{
+    width: 100%;
+}
 .first-section{
     background-color: white;
     height: 100vh;
@@ -150,20 +172,20 @@ img{
     width: 50vw;
     
 }
-.content{
+/* .content{
     padding-left: 50px;
-}
+} */
 .heading{
     font-family: Open Sans;
     font-weight: 500;
     color: #3751FE;
     margin-top: 30px;
+    font-size: large;
 }
 
 input{
     display: block;
-    width: 350px;
-    max-width: 450px;
+    width: 100%;
     height: 40px;
     border-color: #C1BBBB;
 }
@@ -180,18 +202,50 @@ img{
     justify-content: center;
     display: block;
 }
+.space{
+    display: flex;
+    margin-right: 0;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+    /* margin-top: 10px; */
+    /* margin-left: 0px; */
+}
+.second-section{
+    margin: 0px;
+    padding: 0px;
+}
+.others{
+    display: block;
+    text-align: center;
+}
+.social{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+}
 
 }
 
 /* for smartphone */
 @media (max-width: 720px){
- 
+    .container{
+        justify-content: center;
+        
+    }
+    .first-section{
+        width: 100vw;
+        
+        /* margin: auto; */
+    }
+    
     .second-section{
         display: none;
     }
     input{
         display: block;
-        max-width: 300px;
+        max-width: 100%;
         height: 40px;
         border-color: #C1BBBB;
     }
@@ -203,10 +257,10 @@ img{
         align-items: center;
     }
     .space{
-        display: block;
-        margin-right: 20px;
+        display: flex;
+        /* margin-right: 20px; */
         margin-top: 10px;
-        margin-left: 0px;
+        /* margin-left: 0px; */
     }
 
     .btn{
@@ -215,7 +269,7 @@ img{
     }
 
     button{
-        width: 300px;
+        width: 100%;
         height: 45px;
         margin-bottom: 10px;
         border:  #3751FE 1.5px solid;
@@ -231,11 +285,11 @@ img{
     }
     .others{
         display: block;
-        margin: auto;
-        /* margin-right: 50px; */
-        /* justify-content: space-between; */
-        /* align-items: center; */
-        /* margin-top: 30px; */
+        justify-content: center;
+        text-align: center;
+    }
+    .others a{
+        text-align: justify;
     }
 
     .others p{
@@ -245,9 +299,9 @@ img{
         font-size: 12px;
     }
 
-    .others a{
-        /* display: inline-block; */
+    /* .others a{
+        display: inline-block;
         font-weight: bold;
         margin: auto;
-    }
+    } */
 }
