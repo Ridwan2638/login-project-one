@@ -69,8 +69,8 @@ const Signup = () => {
   return (
     <div>
       <div className="container">
-        <div className="content">
-          <div className="first-section">
+        <div className="first-section">
+          <div className="content">
             <form onSubmit={handleSubmit}>
               <h3 className="heading">Sign Up</h3>
               <p>Please fill your informations below</p>
@@ -163,12 +163,6 @@ const Signup = () => {
               <Link to="/" style={{textDecoration:"none"}}>
                 <p>Login to your account</p>
               </Link>
-            </div>
-            <div className="others">
-              <p>Or login with</p>
-              <a href="www.facebook.com/login">Facebook</a>
-              <a href="www.linkedin.com/login">LinkedIn</a>
-              <a href="www.google.com/login">Google</a>
             </div>
           </div>
         </div>
